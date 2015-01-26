@@ -1,5 +1,4 @@
-![Build Status](https://travis-ci.org/Antoine07/Router.svg?branch=master)
-# Router
+![Build Status](https://travis-ci.org/Uthmordar/Hangman.svg?branch=master)
+# Hangman
 ## Requirements
 * PHP >=5.4
-* Symfony/Yaml
