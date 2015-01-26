@@ -1,0 +1,21 @@
+{
+    "name": "calculator/calculator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tanguy",
+            "email": "tanguyrygodin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "": ["src/", "Tests/"]
+        }
+    }
+}
