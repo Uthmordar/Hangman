@@ -11,7 +11,7 @@ class GameTest extends \PHPUnit_Framework_TestCase{
     
     /**
     * @test testIsLetterFound($letter)
-     * @dataProvider listData
+    * @dataProvider listData
     */
     public function testIsLetterFound($letter, $presence){
         $this->assertEquals($presence, $this->game->tryLetter($letter));
