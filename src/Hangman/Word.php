@@ -11,7 +11,7 @@ class Word{
         if(!is_string($word)){
             throw new \InvalidArgumentException('word needed.');
         }
-        $word=trim($word);
+        $word=strtolower(trim($word));
         if(!preg_match($this->pattern, $word)){
             throw new \InvalidArgumentException('only letter allowed.');
         }
@@ -29,6 +29,7 @@ class Word{
         if(!is_string($letter) || strlen($letter)!=1 || is_numeric($letter)){
             throw new \InvalidArgumentException('letter needed.');
         }
+        $letter=strtolower($letter);
         if(in_array($letter, $this->lettersTried)){
             throw new \RuntimeException('already tried letter');
         }
